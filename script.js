@@ -6,11 +6,10 @@ function mostrargay() {
 
 function mostrarbai() {
     const elx = document.getElementById("elx");
-    const second = document.getElementById("second");
 
     if (!elx.classList.contains("mostrando")) {
         alert("Você precisa apertar o botão 'Baitola' primeiro, baitola do carai!");
     } else {
-        second.classList.toggle("mostrando");
+        document.getElementById("second").style.display = "block";
     }
 }
