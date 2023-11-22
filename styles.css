@@ -1,0 +1,65 @@
+p {
+    text-align: center;
+    font-size: 45px;
+}    
+p i {
+    color: yellow;
+}
+p b {
+    color: purple;
+    cursor: pointer;
+}
+
+#elx h1 {
+    font-size: 55px;
+    color: magenta;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: escrever 3s steps(100, end);
+    width: 100%;
+    margin: 0 auto;
+}
+
+#elx {
+    display: none;
+}
+
+#elx.mostrando {
+    display: block;
+}
+
+@keyframes escrever {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#after {
+    text-align: center;
+}
+#after i{
+    color: purple;
+}
+#after b{
+    color: yellow;
+    cursor: pointer;
+}
+
+#second h1 {
+    font-size: 55px;
+    color: magenta;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: escrever 3s steps(100, end);
+    width: 100%;
+    margin: 0 auto;
+}
+
+#second {
+    display: none;
+}
